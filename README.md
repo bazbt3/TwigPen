@@ -3,6 +3,8 @@
 
 Sets up Twitter auth tokens and provides a 'wrapper' for Twython.
 
+The basis of this stemmed from something I found here: [http://testdawg.com/index.php/2017/02/20/automatically-post-tweets-using-python-twitter-api/](http://testdawg.com/index.php/2017/02/20/automatically-post-tweets-using-python-twitter-api/)
+
 ### Prerequisites:
 * [twython](https://github.com/ryanmcgrath/twython), installed on shared hosting by `pip3.6 install --user twython`
 * A text file in which are stored your 4 Twitter auth tokens, each on a separate line. Opened in order with code *like* this:    
